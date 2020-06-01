@@ -45,3 +45,46 @@ Relgion data variables:
 
 ![alt text](https://github.com/guyalmog2/GDP/blob/master/Region.png?raw=true)
 
+
+The GDP distribution after perfoming log transformation to make it Normal Distributed:
+
+![alt text](https://github.com/guyalmog2/GDP/blob/master/GDP_Dist.png?raw=true)
+
+
+## Modeling:
+
+7 models were compared to each other on 4 conditions:
+1) All features selected and modelling done without scaling
+2) Specific features selected and modelling done without scaling
+3) All features selected and modelling done with scaling
+4) Specific features selected and modelling done with scaling
+
+the models that were compared are:
+* Lasso
+* Linear regression
+* XGBooster regression
+* SVM 
+* Random forest
+* Elastic net
+* Light GBM
+
+out of the seven, XGB and Random forest have shown the best results, further Grid search performed on both, with XGB providing the best final model:
+* R2 Score - 0.9428042942023181
+* Mean squared error score - 0.07782077858256242
+
+The coefficient results provided from the model were:
+
+* Phones	0.381336
+* Infant mortality	0.202153
+* Business Freedom	0.094156
+* Birthrate	0.051947
+* Exports	0.047083
+* Industry	0.038557
+* Financial Freedom	0.032130
+* Investment Freedom	0.027141
+* Pop. Density	0.025503
+* Population	0.023937
+* ATMs per 100,000 adults 2013	0.022876
+* Net foreign invest	0.020571
+* Service	0.017615
+Literacy	0.014994
