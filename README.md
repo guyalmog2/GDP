@@ -90,4 +90,4 @@ The coefficient results provided from the model were:
 * ATMs per 100,000 adults 2013	0.022876
 * Net foreign invest	0.020571
 * Service	0.017615
-Literacy	0.014994
+* Literacy	0.014994
