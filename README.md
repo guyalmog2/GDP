@@ -25,14 +25,23 @@ packages: pandas, numpy, sklearn, scipy, matplotlib, seaborn, XGBoost, LightGBM
 ## Exploratory Data Analysis:
 GDP basic statistics:
 
-count      149.000000
-mean      8914.093960
-std      10031.491092
-min        500.000000
-25%       1800.000000
-50%       4800.000000
-75%      11400.000000
-max      55100.000000
+* count      149.000000
+* mean      8914.093960
+* std      10031.491092
+* min        500.000000
+* 25%       1800.000000
+* 50%       4800.000000
+* 75%      11400.000000
+* max      55100.000000
 
-top 10 Correlators with GDP:
+
+
+top 10 correlators with GDP:
+
+![alt text](https://github.com/guyalmog2/GDP/blob/master/top_corr.png?raw=true)
+
+
+Relgion data variables:
+
+![alt text](https://github.com/guyalmog2/GDP/blob/master/Region.png?raw=true)
 
