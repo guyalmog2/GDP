@@ -46,7 +46,7 @@ Relgion data variables:
 ![alt text](https://github.com/guyalmog2/GDP/blob/master/Region.png?raw=true)
 
 
-The GDP distribution after perfoming log transformation to make it Normal Distributed:
+The GDP distribution after performing log transformation to make it Normal Distributed:
 
 ![alt text](https://github.com/guyalmog2/GDP/blob/master/GDP_Dist.png?raw=true)
 
