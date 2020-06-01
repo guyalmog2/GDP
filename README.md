@@ -72,6 +72,9 @@ out of the seven, XGB and Random forest have shown the best results, further Gri
 * R2 Score - 0.9428042942023181
 * Mean squared error score - 0.07782077858256242
 
+![alt text](https://github.com/guyalmog2/GDP/blob/master/Regression_plot.png?raw=true)
+
+
 The coefficient results provided from the model were:
 
 * Phones	0.381336
